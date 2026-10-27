@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, fix/trivy-vulnerabilities ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, fix/trivy-vulnerabilities ]
 
 jobs:
   test:
